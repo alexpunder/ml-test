@@ -5,9 +5,22 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "fastapi[standard]>=0.124.4",
+    "gradio>=6.1.0",
     "keras>=3.10.0",
+    "loguru>=0.7.3",
     "matplotlib>=3.10.3",
+    "nbqa>=1.9.1",
+    "notebook>=7.4.5",
     "numpy>=2.3.1",
     "pandas>=2.3.1",
+    "pip>=25.3",
+    "playwright>=1.57.0",
+    "plotly>=6.5.0",
+    "pytest>=8.4.2",
+    "ruff>=0.13.2",
     "scikit-learn>=1.7.0",
+    "torch>=2.10.0",
+    "torchvision>=0.25.0",
+    "uvicorn>=0.38.0",
 ]
